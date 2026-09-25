@@ -1,5 +1,7 @@
 Clinical OMOP Lakehouse
 
+[![CI](https://github.com/lartieda/clinical-omop-lakehouse/actions/workflows/ci.yml/badge.svg)](https://github.com/lartieda/clinical-omop-lakehouse/actions/workflows/ci.yml)
+
 A reproducible PySpark and Delta Lake project that transforms synthetic clinical source data into a focused subset of the [OMOP Common Data Model](https://www.ohdsi.org/data-standardization/the-common-data-model/). It is designed as a portfolio project for biomedical data engineering, clinical informatics and healthcare data-platform roles.
 
 > **Data note:** all records in this repository are synthetic. They do not describe real patients, events or healthcare providers.
