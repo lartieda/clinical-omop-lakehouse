@@ -1,0 +1,5 @@
+source_condition_code,source_vocabulary,standard_concept_id,standard_concept_name,mapping_status
+HTN,SYNTHETIC_LOCAL,316866,Essential hypertension,standard
+T2D,SYNTHETIC_LOCAL,201826,Type 2 diabetes mellitus,standard
+ASTHMA,SYNTHETIC_LOCAL,317009,Asthma,standard
+MIGRAINE,SYNTHETIC_LOCAL,377821,Migraine,standard

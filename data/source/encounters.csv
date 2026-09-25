@@ -1,0 +1,9 @@
+encounter_id,patient_id,encounter_start_date,encounter_end_date,encounter_type
+E001,P001,2025-01-04,2025-01-04,outpatient
+E002,P001,2025-03-15,2025-03-17,inpatient
+E003,P002,2025-02-10,2025-02-10,outpatient
+E004,P003,2025-02-28,2025-02-28,outpatient
+E005,P004,2025-04-06,2025-04-08,inpatient
+E006,P005,2025-04-19,2025-04-19,outpatient
+E007,P006,2025-05-03,2025-05-03,outpatient
+E008,P002,2025-05-22,2025-05-22,outpatient
