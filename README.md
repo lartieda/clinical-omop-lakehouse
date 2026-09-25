@@ -1,4 +1,4 @@
-# Clinical OMOP Lakehouse
+Clinical OMOP Lakehouse
 
 A reproducible PySpark and Delta Lake project that transforms synthetic clinical source data into a focused subset of the [OMOP Common Data Model](https://www.ohdsi.org/data-standardization/the-common-data-model/). It is designed as a portfolio project for biomedical data engineering, clinical informatics and healthcare data-platform roles.
 
@@ -58,7 +58,9 @@ The companion Power BI report presents a compact data-quality and cohort overvie
 - condition-event and unique-patient counts by diagnosis;
 - patient distribution by sex.
 
-Save the report as `clinical_omop_lakehouse_dashboard.pbix` and place a screenshot at `assets/dashboard_overview.png` before publishing the repository. Do not commit credentials, tokens, patient-level extracts or any non-synthetic data.
+![Clinical OMOP Lakehouse dashboard preview](assets/dashboard_overview.png)
+
+The report is available as `clinical_omop_lakehouse_dashboard.pbix`. It uses synthetic data only and is intended as a portfolio artifact, not as a clinical decision-support tool. Do not commit credentials, tokens, patient-level extracts or any non-synthetic data.
 
 ## Local prototype
 
@@ -129,5 +131,4 @@ PySpark, Databricks, Delta Lake, SQL, clinical data standardization, OMOP CDM, E
 - Add an incremental-load pattern and audit table.
 - Add vocabulary versioning and mapping coverage metrics.
 - Port the SQL layer to DuckDB or PostgreSQL.
-- Add an incremental-load pattern and audit table.
 - Connect the dashboard directly to a governed Databricks SQL warehouse.
